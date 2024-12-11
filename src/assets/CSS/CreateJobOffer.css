@@ -1,0 +1,95 @@
+body {
+    background: linear-gradient(to right, #434343, #000000);
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-container {
+    background-color: #222;
+    padding: 40px; /* Augmentation du padding pour un formulaire plus grand */
+    border-radius: 10px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.7);
+    width: 500px; /* Largeur du formulaire augmentée */
+  }
+  
+  h2 {
+    color: #f0f0f0;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  input, .textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+    background-color: white; /* Champs en blanc */
+    color: black; /* Texte en noir */
+  }
+  
+  input:focus, .textarea:focus {
+    border-color: #4f46e5;
+    outline: none;
+  }
+  
+  .submit-button {
+    display: block; /* Permet de centrer le bouton */
+    margin: 20px auto; /* Centre le bouton horizontalement */
+    width: 50%; /* Optionnel : définit une largeur pour le bouton */
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049; /* Couleur du bouton au survol (vert foncé) */
+    transform: scale(1.05); /* Légère augmentation de la taille au survol */
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .success {
+    color: green;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .view-offers-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff; /* Couleur du bouton */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .view-offers-button:hover {
+    background-color: #0056b3; /* Couleur au survol */
+  }

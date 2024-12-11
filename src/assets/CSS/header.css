@@ -1,0 +1,22 @@
+/* styles.css */
+.navbar-toggler {
+    border-color: transparent; /* Supprime la bordure */
+}
+
+.navbar-toggler.profile {
+    margin-right: 100px; /* Ajustez la valeur selon vos besoins */
+}
+
+.navbar-toggler:focus {
+    outline: none; /* Supprime le contour par défaut */
+    box-shadow: none; /* Supprime l'ombre par défaut */
+}
+
+.navbar-toggler:not(.collapsed) {
+    background-color: transparent !important; /* Couleur de fond lorsque le menu est ouvert */
+}
+
+/* Ajout d'un espacement pour le bouton de déconnexion */
+.profile {
+    margin-right: 10px; /* Ajustez la valeur selon vos besoins */
+}
